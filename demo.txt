@@ -1,0 +1,67 @@
+# Why ChatBot?
+Waiting time
+Require huge human power
+Human labour, Investment cost, Skill set
+Infrastructure cost
+80/20 rule
+Computer can solve 80% of problem taking natural language as input and process it and generate smart and relative response(Chat Robot)
+
+# Type of Chat Bot
+Rule Based(FAQ)
+Conversational Based(AI, Virtual Assistant)
+(Context Maintaience)
+Ex - 
+Who is president of abc?
+What is his age?
+
+Book ticket from a to b?
+What is weather there?
+
+Platforms -
+FB Messenger, M/S Team, Skype, Slack
+
+AI - ML - DL
+ChatBot - Natural Language NLP = Processing, NLU = Understanding(Unstructured to Structured Data), ASR(Automatic Speech Recognition)
+NLU is branch of NLP
+
+# Frameworks -
+M/S Bot, IBM Bot, Amazon Lex, rasa
+
+# Requirements:
+Python, Anaconda
+
+# Steps:
+1. Check for python verion
+Open cmd and execute python --version
+
+2. Open anaconda prompt
+Search anaconda on the computer
+
+3. Create virtual environment (virtual env contain all the dependencies of project)
+create -n your_env_name python=x.x anaconda
+-n stands for new
+x.x is version of python(open cmd and execute python --version)
+
+4. Activate env that is just created
+activate your_env_name
+
+5. Install the dependencies on (these dependencies will be installed in virtual environment)
+pip install your_package_name
+
+pip install rasa --ignore-installed ruamel.yaml
+to ignore already installed package to avoid conflicts
+
+use --user to give access
+
+6. Change to any directory
+rasa init
+python -m rasa init
+
+rasa train
+rasa shell
+
+#
+nlu - intent determine and define
+rules - actions bind to intent
+stories - structured multiple rules
+domain - responses to intents 
